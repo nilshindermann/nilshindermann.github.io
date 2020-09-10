@@ -3,9 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>Nils Hindermann</title>
+    <link rel="stylesheet" href="./css/uikit.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/uikit-rtl.min.css" type="text/css">
   </head>
   <body>
-    <h1>Nils Hindermann</h1>
-    <p>Willkommen auf meiner Webseite!</p>
+    <div class="uk-section uk-section-primary">
+      <div class="uk-container uk-container-small">
+        <h1>Nils Hindermann</h1>
+        <p>Willkommen auf meiner Webseite!</p>
+      </div>
+    </div>
+    <div class="uk-section-muted uk-padding-small uk-text-center">
+      <p class="uk-text-large"><a href="https://nilshindermann.github.io/JS-Game/">TBZ Modul 431 Projekt (Pong)</a></p>
+    </div>
+    <div class="uk-container uk-padding">
+      <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2020-09-18T07:00:00+02:00">
+        <div>
+          <div class="uk-countdown-number uk-countdown-days"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+        </div>
+        <div class="uk-countdown-separator">:</div>
+        <div>
+          <div class="uk-countdown-number uk-countdown-hours"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+        </div>
+        <div class="uk-countdown-separator">:</div>
+        <div>
+          <div class="uk-countdown-number uk-countdown-minutes"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+        </div>
+        <div class="uk-countdown-separator">:</div>
+        <div>
+          <div class="uk-countdown-number uk-countdown-seconds"></div>
+          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+        </div>
+      </div>
+      <p class="uk-text-center">
+        <span class="uk-label">Default</span>
+        <span class="uk-label uk-label-success">Success</span>
+        <span class="uk-label uk-label-warning">Warning</span>
+        <span class="uk-label uk-label-danger">Danger</span>
+      </p>
+    </div>
+    <footer class="uk-section-secondary uk-text-center uk-padding-small">
+      <p>
+        Powered by <a href="https://pages.github.com">GitHub Pages</a> & <a href="https://getuikit.com">Uikit</a>
+      </p>
+      <p>Copyright &copy; 2020 Nils Hindermann</p>
+    </footer>
   </body>
+  <script src="./js/uikit.min.js" charset="utf-8"></script>
+  <script src="./js/uikit-icons.min.js" charset="utf-8"></script>
 </html>
