@@ -1,69 +1,136 @@
 <!DOCTYPE html>
-<html lang="de" dir="ltr">
-  <head>
+<html lang="de-ch">
+
+<head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Die Webseite von Nils Hindermann">
+    <meta name="author" content="Nils Hindermann">
+
     <title>Nils Hindermann</title>
-    <link rel="stylesheet" href="./css/uikit.min.css" type="text/css">
-  </head>
-  <body>
-    <div class="uk-section uk-section-primary">
-      <div class="uk-container uk-container-small">
-        <h1>Nils Hindermann</h1>
-        <p>Willkommen auf meiner Webseite!</p>
-      </div>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font-Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Nils Hindermann</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">Über mich</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#topical">Aktuell</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="uk-section-muted uk-padding-small uk-text-center">
-      <p class="uk-text-large"><a href="https://nilshindermann.github.io/JS-Game/">TBZ Modul 431 Projekt (Pong)</a></p>
+</nav>
+
+<header class="bg-primary text-white">
+    <div class="container text-center">
+        <h1>Willkommen auf meiner Website!</h1>
+        <p class="lead">Hier findest du alles Mögliche über mich</p>
     </div>
-    <div class="uk-container uk-container-small uk-padding">
-      <div class="uk-alert-primary" uk-alert>
-        <a class="uk-alert-close" uk-close></a>
-        <p>Folge mir auf Instagram, Facebook, Twitter & YouTube</p>
-      </div>
-      <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2020-09-18T07:00:00+02:00">
-        <div>
-          <div class="uk-countdown-number uk-countdown-days"></div>
-          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Tage</div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Über mich</h2>
+                <p class="lead">
+                    Ich heisse Nils Hindermann und bin 16 Jahre alt. Ich wohne im Kanton Zürich und arbeite in Uster.
+                    Ich interessiere mich sehr für Informatik, besonders für Applikationsentwicklung.
+                </p>
+                <p class="text-center">
+                    <a href="https://instagram.com/nilshindermann" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/nils.hindermann.90" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/nilshindermann" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/channel/UC9k_RP944r-2Qe6bpuFCfoA" class="fa fa-youtube"></a>
+                    <a href="https://www.linkedin.com/in/nils-hindermann-67072a1b7/" class="fa fa-linkedin"></a>
+                </p>
+            </div>
         </div>
-        <div class="uk-countdown-separator">:</div>
-        <div>
-          <div class="uk-countdown-number uk-countdown-hours"></div>
-          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Stunden</div>
-        </div>
-        <div class="uk-countdown-separator">:</div>
-        <div>
-          <div class="uk-countdown-number uk-countdown-minutes"></div>
-          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minuten</div>
-        </div>
-        <div class="uk-countdown-separator">:</div>
-        <div>
-          <div class="uk-countdown-number uk-countdown-seconds"></div>
-          <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Sekunden</div>
-        </div>
-      </div>
-      <p class="uk-text-center">
-        <span class="uk-label">Default</span>
-        <span class="uk-label uk-label-success">Success</span>
-        <span class="uk-label uk-label-warning">Warning</span>
-        <span class="uk-label uk-label-danger">Danger</span>
-      </p>
     </div>
-    <footer class="uk-section-secondary uk-text-center uk-padding-small">
-      <p>
-        Powered by <a href="https://pages.github.com">GitHub Pages</a> & <a href="https://getuikit.com">Uikit</a>
-      </p>
-      <p>Copyright &copy; 2020 Nils Hindermann</p>
-      <div style="width:190px;" class="uk-margin-auto">
-        <ul class="uk-grid-small uk-flex-middle" uk-grid>
-          <li><a class="uk-icon-button" href="https://www.instagram.com/nilshindermann" uk-icon="icon: instagram"></a></li>
-          <li><a class="uk-icon-button" href="https://www.facebook.com/nils.hindermann.90" uk-icon="icon: facebook"></a></li>
-          <li><a class="uk-icon-button" href="https://twitter.com/nilshindermann" uk-icon="icon: twitter"></a></li>
-          <li><a class="uk-icon-button" href="https://www.youtube.com/channel/UC9k_RP944r-2Qe6bpuFCfoA" uk-icon="icon: youtube"></a></li>
-        </ul>
-      </div>
-    </footer>
-  </body>
-  <script src="./js/uikit.min.js" charset="utf-8"></script>
-  <script src="./js/uikit-icons.min.js" charset="utf-8"></script>
+</section>
+
+<section id="topical" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Aktuell</h2>
+                <p class="lead">
+                    Zurzeit arbeite ich in der Berufsschule TBZ and einem Projekt, bei dem ich ein Spiel in der
+                    Programmiersprache JavaScript programmiere.
+                </p>
+                <p><a href="https://nilshindermann.github.io/JS-Game/">Hier findest du die Website</a></p>
+                <p>
+                    Das Spiel, das mein Kollege und ich programmieren, ist Pong.
+                    Wir haben dieses Spiel gewählt, weil wir beide nicht viel Erfahrung mit JavaScript haben,
+                    und Pong einfach zu programmieren sein soll.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Kontakt</h2>
+                <p class="lead">Schreibe eine E-Mail an: <a
+                        href="mailto:nilshindermann@gmail.com?subject=Kontakt%20%C3%BCber%20Website&amp;body=Hallo%20Nils%0A%0AIch%20kontaktiere%20dich%2C%20weil%20....">nilshindermann@gmail.com</a>
+                </p>
+                <p>
+                    Spam wird nicht erwünscht!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container text-center">
+        <p class="m-0 text-white">Copyright &copy; 2020 - Nils Hindermann</p>
+        <img class="m-2" alt="W3C Validation"
+             src="https://img.shields.io/w3c-validation/html?style=for-the-badge&targetUrl=https%3A%2F%2Fnilshindermann.github.io">
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="js/main.js"></script>
+
+</body>
+
 </html>
